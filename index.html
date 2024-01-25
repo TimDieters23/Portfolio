@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1c1edacd5b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <div id="header">
+      <div class="container">
+          <nav>
+              <img src="images/logo.png" class="logo">
+              <ul id="sidemenu">
+                  <li><a href="#header">Home</a></li>
+                  <li><a href="#about">About</a></li>
+                  <li><a href="#services">Services</a></li>
+                  <li><a href="#portfolio">Portfolio</a></li>
+                  <li><a href="#contact">Contact</a></li>
+                  <i class="fas fa-times" onclick="closemenu()"></i>
+              </ul>
+              <i class="fas fa-bars" onclick="openmenu()"></i>
+          </nav>
+          <div class="header-text">
+              <p>Software Developer Student</p>
+              <h1>Hi, I'm <span>Tim Dieters</span><br>From the Netherlands</h1>
+     </div>
+   </div>
+</div>
+<!-------------------about-------------- -->
+   <div id="about">
+      <div class="container">
+         <div class="row">
+            <div class="about-col-1">
+            <img src="images/place holder About.jpg" alt="">
+         </div>
+            <div class="about-col-2">
+               <h1 class="sub-title"> About Me</h1>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, sint numquam! Exercitationem, sed placeat ut ipsa alias inventore. Ut labore sint excepturi dolorum nisi corrupti odio facilis quo atque debitis.</p>
+
+               <div class="tab-titles" >
+                  <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                  <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                  <p class="tab-links" onclick="opentab('education')">Education</p>
+               </div>
+               
+               <!---tab activation-->
+            <div class="tab-contents active-tab" id="skills">
+                  <ul>
+                     <li><span>Software Devoloper Student</span><br>Designing Web/App interfaces</li>
+                     <li><span>Software Devoloper Student</span><br>Designing Web/App interfaces</li>
+                     <li><span>Software Devoloper Student</span><br>Designing Web/App interfaces</li>
+                  </ul>
+            </div> 
+            <div class="tab-contents" id="experience">
+               <ul>
+                  <li><span>experienc aaa</span><br>experienc aaa</li>
+                  <li><span>experienc aaa</span><br>experienc aaa</li>
+                  <li><span>experienc aaa</span><br>experienc aaa</li>
+               </ul> 
+            </div> 
+            <div class="tab-contents" id="education">
+                  <ul>
+                     <li><span>Software Devoloper Student</span><br>Designing Web/App interfaces</li>
+                     <li><span>Software Devoloper Student</span><br>Designing Web/App interfaces</li>
+                     <li><span>Software Devoloper Student</span><br>Designing Web/App interfaces</li>
+                  </ul>
+            </div>
+         </div>
+         </div>
+      </div>
+ </div>
+ <!-----services---------->
+
+ <div id="services">
+   <div>
+      <div class="container">
+         <h1 class="sub-title"> My services</h1>
+         <div class="services-list">
+            <div>
+               <i class="fa-solid fa-code"></i>
+               <h2>Web Design</h2>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi commodi porro earum eius a consectetur, facere optio blanditiis officia voluptatibus, exercitationem obcaecati architecto est ex id dolorem reprehenderit harum. Iusto.</p>
+               <a href="#">Learn more</a>
+            </div>
+            <div>
+               <i class="fa-solid fa-crop"></i>
+               <h2>Software developer student</h2>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi commodi porro earum eius a consectetur, facere optio blanditiis officia voluptatibus, exercitationem obcaecati architecto est ex id dolorem reprehenderit harum. Iusto.</p>
+               <a href="#">Learn more</a>
+            </div>
+            <div>
+               <i class="fa-brands fa-app-store"></i>
+               <h2>place holder</h2>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi commodi porro earum eius a consectetur, facere optio blanditiis officia voluptatibus, exercitationem obcaecati architecto est ex id dolorem reprehenderit harum. Iusto.</p>
+               <a href="#">Learn more</a>
+            </div>
+
+         </div>
+      </div>
+   </div>
+</div>
+<!--------------------portfolio-------------------->
+<div id="portfolio">
+   <div class="container">
+       <h1 class="sub-title">My Work</h1>
+       <div class="work-list">
+           <div class="work">
+               <img src="images/place holder About.jpg">
+               <div class="layer">
+                   <h3>Placeholder</h3>
+                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni suscipit obcaecati esse tempora harum assumenda iste adipisci id, debitis ad, soluta deleniti ipsum, voluptate minima ab. Fuga voluptatem nisi dolorem?</p>
+                   <a href="#"><i class="fas fa-external-link-alt"></i></a>
+               </div>
+           </div>
+           <div class="work">
+               <img src="images/place holder About.jpg">
+               <div class="layer">
+                   <h3>Placeholder</h3>
+                   <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae, voluptas! Distinctio aperiam harum culpa voluptatum voluptatibus corrupti dignissimos sunt ad quis eum debitis minus corporis, illo commodi! Recusandae, veniam culpa?</p>
+                   <a href="#"><i class="fas fa-external-link-alt"></i></a>
+               </div>
+           </div>
+           <div class="work">
+               <img src="images/place holder About.jpg">
+               <div class="layer">
+                   <h3>Placeholder</h3>
+                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit qui dolor maiores cumque fugiat! Eveniet vitae consectetur dolorem, dicta exercitationem quam ratione rem distinctio quae. Ad ab veniam error fuga?</p>
+                   <a href="#"><i class="fas fa-external-link-alt"></i></a>
+               </div>
+           </div>
+       </div>
+       <a href="#" class="btn">See more</a>
+   </div>
+</div>
+<!--------------------------contact----------------->
+<div id="contact">
+   <div class="container">
+      <div class="row">
+         <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fas fa-paper-plane"></i> timtrust4@live.nl</p>
+                <p><i class="fas fa-phone-square-alt"></i> +31 623528747</p>
+            <div class="social-icons">
+               <a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+               <a href="https://twitter.com"><i class="fa-brands fa-twitter-square"></i></a>
+               <a href="https://instagram.com"><i class="fa-brands fa-instagram"></i></a>
+               <a href="https://linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+               </div>
+         </div>
+         <div class="contact-right">
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+        </div>
+    </div>
+
+
+
+
+<script>
+
+var tablinks = document.getElementsByClassName("tab-links");
+var tabcontents = document.getElementsByClassName("tab-contents");
+
+function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+}
+
+</script>
+
+<script>
+
+var sidemeu = document.getElementById("sidemenu");
+
+function openmenu(){
+    sidemeu.style.right = "0";
+}
+function closemenu(){
+    sidemeu.style.right = "-200px";
+}
+
+</script>
+<script>
+const scriptURL = '<  >' // voeg eigen link hier (nog te maken)
+const form = document.forms['submit-to-google-sheet']
+const msg = document.getElementById("msg")
+
+form.addEventListener('submit', e => {
+  e.preventDefault()
+  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+    .then(response => {
+        msg.innerHTML = "Message sent successfully"
+        setTimeout(function(){
+            msg.innerHTML = ""
+        },5000)
+        form.reset()
+    })
+    .catch(error => console.error('Error!', error.message))
+})
+   
+
+
+
+ </script>         
+</body>
+</html>
